@@ -69,8 +69,19 @@ function kata4() {
      showResults(x)
 }
 kata4()
-function kata5() {}   
-
+function kata5() {
+    let x = ''
+    let n = 25*(-1)
+    for(let i = 25; i >= n; i--){
+        if(i === n){
+            x += i 
+        } else if(i % 2 !== 0){
+            x += i + ','
+        }
+    }
+    showResults(x)
+}   
+kata5()
 function kata6() {
     // implemente o código do kata 6 aqui
     let x = ''
@@ -100,6 +111,7 @@ kata7()
 
 function kata8() {
     // implemente o código do kata 8 aqu
+    
 }
 
 function kata9() {
