@@ -111,8 +111,17 @@ kata7()
 
 function kata8() {
     // implemente o código do kata 8 aqu
-    
+    let x = ''
+    for(let i = 100; i >= 1; i--){
+        if(i===7 || i===3){
+             x += i 
+        } else if(i%7===0 || i % 3 === 0){
+            x += i + ','
+        }
+    }
+    showResults(x)
 }
+kata8()
 
 function kata9() {
     // implemente o código do kata 9 aqui
